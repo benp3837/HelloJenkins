@@ -19,7 +19,7 @@ public class HelloServlet extends HttpServlet{
 		//A print writer created from the response will write to that response object
 		//we can use this to write HTML directly
 		PrintWriter pw = res.getWriter(); 
-		pw.print("<h1>Hello from your doGet method</h1>");
+		pw.print("<h1>Hello from your doGet method from Jenkins! Pipelines are awesome. </h1>");
 		res.setStatus(200); //sets status code to success. Optional.
 		//now we have a servlet!
 	}
